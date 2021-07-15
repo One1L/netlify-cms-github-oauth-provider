@@ -18,3 +18,5 @@ app.get('/', middleWarez.index)
 app.listen(port, () => {
   console.log("gandalf is walkin' on port " + port)
 })
+
+module.exports = app;
